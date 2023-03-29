@@ -6,11 +6,13 @@
 
 import streamlit as st
 import string
+import nltk
+import joblib
 from nltk.corpus import stopwords
 from nltk.tokenize import word_tokenize
 from nltk.stem import WordNetLemmatizer
-import joblib
-import nltk
+
+
 nltk.download('stopwords')
 nltk.download('punkt')
 nltk.download('wordnet')
